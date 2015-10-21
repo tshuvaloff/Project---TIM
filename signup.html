@@ -2,23 +2,24 @@
 <html>
   <head>
     <title>My Project</title>
-    <link rel="stylesheet" href="public/stylesheets/style.css">
+    <link rel="stylesheet" href="public/stylesheets/signupstyle.css">
   </head>
   <body>
+  <h1>Join us!</h1>
     <form method="GET" action="/signup.html">
-      <label for="first-name">First Name?</label>
+      <label for="first-name" id="firstnamelabel">First Name?</label>
       <input type="text" name="first-name" id="first-name" placeholder="What's your first name?">
       <br>
-      <label for="last-name">Last Name?</label>
+      <label for="last-name" id="lastnamelabel">Last Name?</label>
       <input type="text" name"last-name" id="last-name" placeholder="What's your last name?">
       <br>
-      <label for="e-mail">E-mail?</label>
+      <label for="e-mail" id="emaillabel">E-mail?</label>
       <input type="text" name="email" id="email" placeholder="What's your e-mail?">
       <br>
-      <label for="password">Password</label>
+      <label for="password" id="passwordlabel">Password</label>
       <input type="password" name="password" id="password" placeholder="*****">
       <br>
-      <input type="submit" value="I'm Ready to Go!">
+      <input type="submit" value="I'm Ready to Go!" id="button">
       </form>
   </body>
 </html>

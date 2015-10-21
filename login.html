@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="public/stylesheets/loginstyle.css">
   </head>
   <body>
-  <h1> Sign-in to your account </h1>
+  <h1>Login</h1>
     <form method="POST" action="/login.html">
       <label for="first-name">E-mail:</label>
       <input type="text" name="email" id="email">
@@ -15,8 +15,9 @@
       <br>
       <input type="submit" value="Boom!" class="button" id="boom">
       <br>
-      <input type="submit" value="I forgot my Password!" class="button" id="forgotpass">
-      <!-- <button class="button">I forgot my password</button> -->
+      <p id="forgotpass">
+        <a href="recover password">I forgot my Password!</a>
+      </p>
     </form>
   </body>
 </html>
